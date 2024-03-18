@@ -38,7 +38,7 @@ body{
     color: #fff;
     font-weight: 500;
     margin: 0 20px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .navbar a:hover
@@ -119,7 +119,7 @@ body{
     height: 100%;
     background: #01003f;
     animation: show-right 1s ease-out forwards;
-    animation-delay: calc(.5s * var(--i));
+    animation-delay: calc(.3s * var(--i));
 
 }
 
@@ -138,6 +138,6 @@ body{
 
 @keyframes fade-in{
     100%{
-        opacity: 0;
+         opacity: 0;
     }
 }
